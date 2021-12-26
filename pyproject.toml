@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "irithyll"
+version = "0.1.0"
+description = "Using Python to play around with logic gates and things like that"
+authors = ["Eric Fulmer"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.9"
+pytest = "^6.2.5"
+mypy = "^0.930"
+black = "^21.12b0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
